@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Yoonjun Cho"
-author_profile: false
+title: 
+author_profile: true
 redirect_from: 
   - /about/
   - /about.html
