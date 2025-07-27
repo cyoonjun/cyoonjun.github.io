@@ -16,6 +16,6 @@ I work on efficient large language models, with a focus on quantization and low-
 ## 📰 News
 
 - 📣 **Jun 2025**: One paper is accepted to **ICML 2025 (TTODLer-FM Workshop)** as an **Oral Presentation**!
-- 📝 **May 2025**: Our paper is accepted to **ACL 2025 Findings**!
+- 📝 **May 2025**: One paper is accepted to **ACL 2025 Findings**!
 
 ---
