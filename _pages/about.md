@@ -15,6 +15,10 @@ I am a PhD student at Yonsei University, advised by Prof. Albert No. My research
 
 ## 📰 News
 
+- 📣 **Apr 2026**: One paper is accepted to **ICLR 2026**!
+
+  *A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models*
+
 - 📣 **Jun 2025**: One paper is accepted to **ICML 2025 (TTODLer-FM Workshop)**, **Oral**!
 
   *Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction*
