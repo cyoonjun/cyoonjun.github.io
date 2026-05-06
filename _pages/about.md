@@ -10,6 +10,7 @@ redirect_from:
   @media (min-width: 1024px) {
     #main {
       max-width: 1480px;
+      padding-right: 2rem;
     }
 
     .page {
@@ -76,32 +77,35 @@ redirect_from:
   }
 
   .pub-entry {
-    padding: 1.2rem 0 1.5rem;
-    border-bottom: 1px solid var(--global-border-color);
+    margin: 0 0 1.5rem 0;
+    padding: 0.9rem 1.1rem;
+    border-left: 4px solid #d7dce2;
+    background: #fafbfc;
   }
 
   .pub-entry:last-child {
-    border-bottom: 0;
+    margin-bottom: 0;
   }
 
   .pub-entry-title {
-    color: #20242a;
-    font-size: 1.18rem;
+    color: inherit;
+    font-size: 1em;
     line-height: 1.5;
-    font-weight: 800;
-    margin-bottom: 0.45rem;
+    font-weight: 700;
+    margin-bottom: 0;
   }
 
   .pub-entry-authors {
-    color: #4b5563;
-    font-size: 0.98rem;
-    line-height: 1.65;
+    margin-top: 0.35rem;
+    color: inherit;
+    font-size: 1em;
+    line-height: 1.6;
   }
 
   .pub-entry-meta {
-    margin-top: 0.45rem;
-    color: #2f343b;
-    font-size: 0.98rem;
+    margin-top: 0.2rem;
+    color: #4a5568;
+    font-size: 1em;
   }
 
   .pub-entry-links {
@@ -123,7 +127,7 @@ redirect_from:
     }
 
     .pub-entry-title {
-      font-size: 1.08rem;
+      font-size: 1em;
     }
   }
 </style>
@@ -132,7 +136,7 @@ redirect_from:
   <div class="home-hero">
     <section class="home-main">
       <p>
-        I am a PhD student at Yonsei University, advised by <a href="https://albertno.github.io/" target="_blank">Albert No</a>.
+        I am a PhD student at Yonsei University, advised by Albert No.
         My research focuses on efficient large language models, with particular interest in quantization and low-rank adaptation.
         I am broadly interested in model compression, and my work revisits assumptions that have long been treated as standard practice.
       </p>
