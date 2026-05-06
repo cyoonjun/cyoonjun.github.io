@@ -16,17 +16,18 @@ redirect_from:
   }
 
   .home-main p {
-    font-size: 1.18rem;
-    line-height: 1.85;
-    margin-bottom: 1.8rem;
+    color: #2f343b;
+    font-size: 1.01rem;
+    line-height: 1.8;
+    margin-bottom: 1.45rem;
   }
 
   .home-section-title {
     margin: 2rem 0 1rem;
     padding-bottom: 0.7rem;
     border-bottom: 1px solid var(--global-border-color);
-    color: #667085;
-    font-size: 1.55rem;
+    color: #6b7280;
+    font-size: 1.3rem;
     font-weight: 800;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -45,14 +46,15 @@ redirect_from:
   }
 
   .news-date {
-    color: #667085;
-    font-size: 1.05rem;
+    color: #6b7280;
+    font-size: 0.98rem;
     white-space: nowrap;
   }
 
   .news-text {
-    font-size: 1.12rem;
-    line-height: 1.7;
+    color: #2f343b;
+    font-size: 1rem;
+    line-height: 1.65;
   }
 
   .selected-pubs {
@@ -69,31 +71,33 @@ redirect_from:
   }
 
   .pub-entry-title {
-    font-size: 1.55rem;
-    line-height: 1.4;
+    color: #20242a;
+    font-size: 1.18rem;
+    line-height: 1.5;
     font-weight: 800;
     margin-bottom: 0.45rem;
   }
 
   .pub-entry-authors {
     color: #4b5563;
-    font-size: 1.05rem;
-    line-height: 1.7;
+    font-size: 0.98rem;
+    line-height: 1.65;
   }
 
   .pub-entry-meta {
     margin-top: 0.45rem;
-    font-size: 1.08rem;
+    color: #2f343b;
+    font-size: 0.98rem;
   }
 
   .pub-entry-links {
     margin-top: 0.45rem;
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 
   @media (max-width: 900px) {
     .home-main p {
-      font-size: 1.08rem;
+      font-size: 0.98rem;
       line-height: 1.75;
     }
   }
@@ -105,7 +109,7 @@ redirect_from:
     }
 
     .pub-entry-title {
-      font-size: 1.28rem;
+      font-size: 1.08rem;
     }
   }
 </style>
@@ -124,32 +128,32 @@ redirect_from:
         <div class="news-item">
           <div class="news-date">2026</div>
           <div class="news-text">
+            One paper was accepted to <strong>ICML 2026</strong>.
             <strong>Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs</strong>
-            was accepted to <strong>ICML 2026</strong>.
           </div>
         </div>
 
         <div class="news-item">
           <div class="news-date">Apr 2026</div>
           <div class="news-text">
+            One paper was accepted to <strong>ICLR 2026</strong>.
             <strong>A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models</strong>
-            was accepted to <strong>ICLR 2026</strong>.
           </div>
         </div>
 
         <div class="news-item">
           <div class="news-date">Jun 2025</div>
           <div class="news-text">
+            One paper was accepted to <strong>ICML 2025 TTODLer-FM Workshop</strong> as an <strong>oral</strong>.
             <strong>Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction</strong>
-            was accepted to <strong>ICML 2025 TTODLer-FM Workshop</strong> as an <strong>Oral</strong>.
           </div>
         </div>
 
         <div class="news-item">
           <div class="news-date">May 2025</div>
           <div class="news-text">
+            One paper was accepted to <strong>ACL 2025 Findings</strong>.
             <strong>Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</strong>
-            was accepted to <strong>ACL 2025 Findings</strong>.
           </div>
         </div>
       </div>
