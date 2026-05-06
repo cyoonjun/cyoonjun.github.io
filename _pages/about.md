@@ -7,6 +7,14 @@ redirect_from:
   - /about.html
 ---
 <style>
+  @media (min-width: 1024px) {
+    .page {
+      width: calc(100% - 280px);
+      max-width: none;
+      margin-right: 0;
+    }
+  }
+
   .home-landing {
     margin-top: 1rem;
   }
@@ -163,7 +171,7 @@ redirect_from:
 
     <div class="pub-entry">
       <div class="pub-entry-title">Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs</div>
-      <div class="pub-entry-authors"><strong>Yoonjun Cho*</strong>, <strong>Dongjae Jeon*</strong>, Soeun Kim, Moongyu Jeon, Albert No<sup>†</sup></div>
+      <div class="pub-entry-authors"><strong>Yoonjun Cho*</strong>, Dongjae Jeon*, Soeun Kim, Moongyu Jeon, Albert No<sup>†</sup></div>
       <div class="pub-entry-meta"><em>ICML 2026</em></div>
       <div class="pub-entry-links"><a href="https://arxiv.org/abs/2602.02001" target="_blank">[arXiv]</a></div>
     </div>
