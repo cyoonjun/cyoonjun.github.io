@@ -9,11 +9,14 @@ redirect_from:
 <style>
   @media (min-width: 1024px) {
     #main {
-      max-width: 1380px;
+      max-width: 1480px;
     }
 
     .page {
-      width: calc(100% - 300px);
+      float: none;
+      width: auto;
+      max-width: none;
+      margin-left: 300px;
       margin-right: 0;
     }
   }
