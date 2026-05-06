@@ -7,6 +7,17 @@ redirect_from:
   - /about.html
 ---
 <style>
+  @media (min-width: 1024px) {
+    #main {
+      max-width: 1380px;
+    }
+
+    .page {
+      width: calc(100% - 300px);
+      margin-right: 0;
+    }
+  }
+
   .home-landing {
     margin-top: 1rem;
   }
