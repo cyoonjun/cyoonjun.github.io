@@ -9,34 +9,75 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
+<style>
+  .pub-list {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .pub-item {
+    margin: 0 0 1.5rem 0;
+    padding: 0.9rem 1.1rem;
+    border-left: 4px solid #d7dce2;
+    background: #fafbfc;
+  }
+
+  .pub-label {
+    display: inline-block;
+    min-width: 3rem;
+    font-weight: 700;
+    color: #4a5568;
+  }
+
+  .pub-title {
+    font-weight: 700;
+  }
+
+  .pub-authors {
+    margin-top: 0.35rem;
+  }
+
+  .pub-venue {
+    margin-top: 0.2rem;
+    color: #4a5568;
+  }
+
+  .pub-links {
+    margin-top: 0.35rem;
+  }
+</style>
+
 <h2>📰 Conferences</h2>
-<ul>
-  <li>
-    <strong>A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models</strong><br />
-    <strong>Wonje Jeung*, Sangyeon Yoon*, <strong>Yoonjun Cho</strong>, Dongjae Jeon, Sangwoo Shin, Hyesoo Hong, Albert No<br />
-    <em>ICLR 2026</em><br />
-    <a href="https://arxiv.org/abs/2509.23286" target="_blank">[arxiv]</a>
+<ul class="pub-list">
+  <li class="pub-item">
+    <div><span class="pub-label">[C1]</span> <span class="pub-title">Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</span></div>
+    <div class="pub-authors"><strong>Yoonjun Cho</strong>, Soeun Kim, Dongjae Jeon, Kyelim Lee, Beomsoo Lee, Albert No</div>
+    <div class="pub-venue"><em>ACL 2025 Findings</em></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2506.02077" target="_blank">[arXiv]</a></div>
   </li>
-  <br />
 
-  <li>
-    <strong>Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction</strong><br />
-    <strong>Yoonjun Cho*</strong>, Dongjae Jeon*, Soeun Kim, Albert No<br />
-    <em>ICML 2025, TTODLer-FM Workshop (Oral)</em><br />
-    <a href="https://openreview.net/forum?id=cHUXlmsSXK" target="_blank">[OpenReview]</a>
+  <li class="pub-item">
+    <div><span class="pub-label">[C2]</span> <span class="pub-title">A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models</span></div>
+    <div class="pub-authors">Wonje Jeung*, Sangyeon Yoon*, <strong>Yoonjun Cho</strong>, Dongjae Jeon, Sangwoo Shin, Hyesoo Hong, Albert No</div>
+    <div class="pub-venue"><em>ICLR 2026</em></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2509.23286" target="_blank">[arXiv]</a></div>
   </li>
-  <br />
 
-  <li>
-    <strong>Assigning Distinct Roles to Quantized and Low-Rank Matrices Toward Optimal Weight Decomposition</strong><br />
-    <strong>Yoonjun Cho</strong>, Soeun Kim, Dongjae Jeon, Kyelim Lee, Beomsoo Lee, Albert No<br />
-    <em>ACL 2025 Findings</em><br />
-    <a href="https://arxiv.org/abs/2506.02077" target="_blank">[arXiv]</a>
+  <li class="pub-item">
+    <div><span class="pub-label">[C3]</span> <span class="pub-title">Preserve-Then-Quantize: Balancing Rank Budgets for Quantization Error Reconstruction in LLMs</span></div>
+    <div class="pub-authors"><strong>Yoonjun Cho</strong>, Dongjae Jeon, Soeun Kim, Moongyu Jeon, Albert No</div>
+    <div class="pub-venue"><em>ICML 2026</em></div>
+    <div class="pub-links"><a href="https://arxiv.org/abs/2602.02001" target="_blank">[arXiv]</a></div>
   </li>
-  <br />
-
-  
-
 </ul>
 
-
+<h2>🛠️ Workshops</h2>
+<ul class="pub-list">
+  <li class="pub-item">
+    <div><span class="pub-label">[W1]</span> <span class="pub-title">Preserve then Quantize: Dominant-Subspace Guided Low-Rank Reconstruction</span></div>
+    <div class="pub-authors"><strong>Yoonjun Cho*</strong>, Dongjae Jeon*, Soeun Kim, Albert No</div>
+    <div class="pub-venue"><em>ICML 2025, TTODLer-FM Workshop (Oral)</em></div>
+    <div class="pub-links"><a href="https://openreview.net/forum?id=cHUXlmsSXK" target="_blank">[OpenReview]</a></div>
+  </li>
+</ul>
