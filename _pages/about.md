@@ -7,21 +7,6 @@ redirect_from:
   - /about.html
 ---
 <style>
-  @media (min-width: 1024px) {
-    #main {
-      max-width: 1480px;
-      padding-right: 2rem;
-    }
-
-    .page {
-      float: none;
-      width: auto;
-      max-width: none;
-      margin-left: 300px;
-      margin-right: 0;
-    }
-  }
-
   .home-landing {
     margin-top: 1rem;
   }
@@ -80,7 +65,6 @@ redirect_from:
     margin: 0 0 1.5rem 0;
     padding: 0.9rem 1.1rem;
     border-left: 4px solid #d7dce2;
-    background: #fafbfc;
   }
 
   .pub-entry:last-child {
