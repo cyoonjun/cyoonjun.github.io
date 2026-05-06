@@ -128,7 +128,9 @@ redirect_from:
   <div class="home-hero">
     <section class="home-main">
       <p>
-        I am a PhD student at Yonsei University, advised by Albert No.
+        I am a PhD student in Computer Science at Yonsei University, where I conduct research in the
+        <a href="https://ai-isl.yonsei.ac.kr" target="_blank">Artificial Intelligence and Information Systems Lab</a>
+        under the supervision of Professor Albert No.
         My research focuses on efficient large language models, with particular interest in quantization and low-rank adaptation.
         I am broadly interested in model compression, and my work revisits assumptions that have long been treated as standard practice.
       </p>
