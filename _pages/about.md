@@ -8,10 +8,9 @@ redirect_from:
 ---
 <style>
   @media (min-width: 1024px) {
-    .page {
-      width: calc(100% - 280px);
-      max-width: none;
-      margin-right: 0;
+    .home-main,
+    .selected-pubs {
+      max-width: 50rem;
     }
   }
 
